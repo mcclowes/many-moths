@@ -18,5 +18,5 @@ let wrapper;
 it("renders component", () => {
   wrapper = renderComponent();
 
-  expect(wrapper).toMatchSnapshot();
+  expect(wrapper).toHaveLength(1);
 });
