@@ -1,6 +1,6 @@
 {
-  "name": "mcclowes-react-sample-project",
-  "version": "0.1.0",
+  "name": "many-moths",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "react": "^16.10.1",
