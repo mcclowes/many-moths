@@ -42,7 +42,7 @@ const Main = props => {
         .fill(0)
         .map((x, i) => {
           return i === 12 ? (
-            <div style={{ textAlign: "center" }}>
+            <div key={i} style={{ textAlign: "center" }}>
               <Text.Header>Happy 60 moths!</Text.Header>
               <Text>
                 I am drawn to you <br />
@@ -55,6 +55,7 @@ const Main = props => {
             </div>
           ) : (
             <div
+              key={i}
               style={{
                 height: "150px",
                 display: "flex",
