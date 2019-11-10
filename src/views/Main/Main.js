@@ -41,31 +41,17 @@ const Main = props => {
       {Array(60)
         .fill(0)
         .map((x, i) => {
-          return i === 12 ? (
-            <div key={i} style={{ textAlign: "center" }}>
-              <Text.Header>Happy 60 moths!</Text.Header>
-              <Text>
-                I am drawn to you <br />
-                like a moth to a flame,
-                <br />
-                and your smile
-                <br />
-                is my brightest light {"<3"}
-              </Text>
-            </div>
-          ) : (
-            <div
-              key={i}
-              style={{
-                height: "150px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center"
-              }}
-            >
-              <Moth type={randomItem(types)} color={randomItem(colors)} />
-            </div>
-          );
+          <div
+            key={i}
+            style={{
+              height: "150px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center"
+            }}
+          >
+            <Moth type={randomItem(types)} color={randomItem(colors)} />
+          </div>
         })}
     </div>
   );
