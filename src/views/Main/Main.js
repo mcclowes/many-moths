@@ -1,6 +1,5 @@
 import Moth from "../../components/Moth";
 import React from "react";
-import { Text } from "../../components/UIKit";
 
 const colors = [
   "#333333",
@@ -41,17 +40,19 @@ const Main = props => {
       {Array(60)
         .fill(0)
         .map((x, i) => {
-          <div
-            key={i}
-            style={{
-              height: "150px",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center"
-            }}
-          >
-            <Moth type={randomItem(types)} color={randomItem(colors)} />
-          </div>
+          return (
+            <div
+              key={i}
+              style={{
+                height: "150px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
+            >
+              <Moth type={randomItem(types)} color={randomItem(colors)} />
+            </div>
+          );
         })}
     </div>
   );

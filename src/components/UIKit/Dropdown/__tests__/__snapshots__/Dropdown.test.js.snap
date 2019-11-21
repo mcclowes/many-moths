@@ -190,9 +190,9 @@ exports[`Dropdown interaction 1`] = `
                           },
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "csx__IconWrapper-sc-15pjeas-0",
+                            "componentId": "csx__IconWrapper-sc-1plvyyj-0",
                             "isStatic": false,
-                            "lastClassName": "igSHhC",
+                            "lastClassName": "gPtuyq",
                             "rules": Array [
                               "fill:",
                               [Function],
@@ -206,7 +206,7 @@ exports[`Dropdown interaction 1`] = `
                           "displayName": "csx__IconWrapper",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "csx__IconWrapper-sc-15pjeas-0",
+                          "styledComponentId": "csx__IconWrapper-sc-1plvyyj-0",
                           "target": "svg",
                           "toString": [Function],
                           "usesTheme": true,
@@ -225,7 +225,7 @@ exports[`Dropdown interaction 1`] = `
                       viewBox="0 0 32 32"
                     >
                       <svg
-                        className="csx__IconWrapper-sc-15pjeas-0 igSHhC"
+                        className="csx__IconWrapper-sc-1plvyyj-0 gPtuyq"
                         focusable="false"
                         viewBox="0 0 32 32"
                       >
